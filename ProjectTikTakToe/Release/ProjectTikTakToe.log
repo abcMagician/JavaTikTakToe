@@ -1,0 +1,24 @@
+﻿  JeuSDL.cpp
+  main.cpp
+  Gris_du_jeu.cpp
+  Image.cpp
+  Joueur.cpp
+JeuSDL.obj : error LNK2001: unresolved external symbol _SDL_RenderClear
+JeuSDL.obj : error LNK2001: unresolved external symbol _SDL_DestroyRenderer
+JeuSDL.obj : error LNK2001: unresolved external symbol _SDL_Init
+JeuSDL.obj : error LNK2001: unresolved external symbol _SDL_DestroyWindow
+JeuSDL.obj : error LNK2001: unresolved external symbol _SDL_Quit
+JeuSDL.obj : error LNK2001: unresolved external symbol _SDL_PollEvent
+JeuSDL.obj : error LNK2001: unresolved external symbol _SDL_CreateRenderer
+JeuSDL.obj : error LNK2001: unresolved external symbol _SDL_RenderPresent
+JeuSDL.obj : error LNK2001: unresolved external symbol _SDL_CreateWindow
+JeuSDL.obj : error LNK2001: unresolved external symbol _SDL_SetRenderDrawColor
+Image.obj : error LNK2001: unresolved external symbol _SDL_RenderCopy
+Image.obj : error LNK2001: unresolved external symbol _SDL_UpdateTexture
+Image.obj : error LNK2001: unresolved external symbol _SDL_ConvertSurfaceFormat
+Image.obj : error LNK2001: unresolved external symbol _IMG_Init
+Image.obj : error LNK2001: unresolved external symbol _SDL_FreeSurface
+Image.obj : error LNK2001: unresolved external symbol _IMG_Load
+Image.obj : error LNK2001: unresolved external symbol _SDL_CreateTextureFromSurface
+MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol _main
+C:\Users\Anas1\Desktop\ProjectTikTakToe\Release\ProjectTikTakToe.exe : fatal error LNK1120: 18 unresolved externals
